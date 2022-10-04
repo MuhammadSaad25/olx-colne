@@ -1,0 +1,506 @@
+* {
+    /* box-sizing: inherit; */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-size: 1.372rem;
+    line-height: 1.5495;
+    letter-spacing: -.02em;
+    font-family: Helvetica, sans-serif;
+    color: #002f34;
+    -webkit-text-size-adjust: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: underline;
+}
+
+ul li {
+    line-height: 1.5rem;
+}
+
+
+/* ################################### header styleing ############################### */
+
+.main-header {
+    background-color: #f7f8f8;
+    position: sticky;
+    top: 0;
+    z-index: 6;
+    padding-bottom: 1rem;
+}
+
+.h-box1 {
+    padding: .5rem;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    display: flex;
+    justify-items: start;
+}
+
+.olx-logo-svg {
+    height: 90%;
+    width: 90%;
+    fill: #3a77ff;
+}
+
+.car-logo-a,
+.p-logo-a {
+    margin-top: 0.2rem;
+    margin-left: 2.6rem;
+}
+
+.h-box2 {
+    margin-left: 2rem;
+    margin-right: 1.6rem;
+    padding: rem 0;
+    display: flex;
+    justify-items: start;
+}
+
+.select-city {
+    background-color: #fff;
+    border-radius: 4px;
+    border: solid black 1px;
+    height: 48px;
+    width: 20%;
+    padding-right: 1rem;
+    display: flex;
+    justify-items: start;
+}
+
+.select-city>input {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+}
+
+.search-icon {
+    margin: .5rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.drop-icon {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-search {
+    background-color: #fff;
+    margin-left: 1rem;
+    border-radius: 4px;
+    border: solid 1px black;
+    height: 48%;
+    width: 60%;
+    display: flex;
+    justify-self: start;
+}
+
+.main-search>input {
+    font-size: 17px;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-left: 1rem;
+}
+
+.main-search>button {
+    border: none;
+    outline: none;
+    height: 48px;
+    width: 7%;
+    background-color: #002f34;
+    overflow: hidden;
+}
+
+.main-search>button>svg {
+    fill: #fff;
+}
+
+.login-link {
+    margin-top: 0.6rem;
+    margin-left: 2rem;
+    height: 8px;
+    display: flex;
+}
+
+.login-link>a {
+    text-decoration: none;
+    font-style: normal;
+    color: black;
+    display: flex;
+    border-bottom: 2px solid black;
+    padding-bottom: 1.6rem;
+    text-align: center;
+}
+
+.login-link :hover {
+    border: none;
+}
+
+.sell-icon {
+    margin-left: 1rem;
+}
+
+.sell-btn {
+    pointer-events: auto;
+    position: relative;
+    cursor: pointer;
+    background: none;
+    border: none;
+    appearance: none;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    display: flex;
+}
+
+.sell-icon-sub-div {
+    position: absolute;
+    top: 1rem;
+    left: 1.3rem;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+}
+
+.plus-img {
+    margin-right: 0.4rem;
+}
+
+.sell-span {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+
+/* ##################################### catagory bar styling ################################ */
+
+.catagory-bar {
+    background-color: #fff;
+    height: 40px;
+    padding-top: 0.5rem;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+    display: flex;
+    justify-items: start;
+}
+
+.catagory-list a {
+    margin-left: 1rem;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.catagory-list a i {
+    margin-left: 0.5rem;
+}
+
+.all-catagory {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.poster {
+    width: 100%;
+    height: 15rem;
+    background: url(./imgs/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.g-add {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 1rem 0;
+    background-color: #fff;
+}
+
+iframe {
+    width: 728px;
+    height: 90px;
+}
+
+
+/* ############################## add section ########################## */
+
+.add-section {
+    max-width: 1280px;
+    margin: auto;
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.add-heading {
+    font-size: 24px;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.add-section-div {
+    padding: .5rem 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.add {
+    width: 25%;
+    height: 300px;
+    margin: 0 0.3%;
+    border: #00000027 SOLID 0.5px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-img {
+    height: 50%;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+}
+
+.add-botom {
+    box-shadow: 0 0 0px 1px rgb(0 0 0 / 20%);
+    height: 51%;
+    width: 96.3%;
+    border-left: 10px solid #ffce32;
+    margin: -4px 0px 0px 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.add-title {
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.text {
+    width: 80%;
+}
+
+.text>p {
+    margin: 10px 8px 0px 0px;
+    font-weight: 100;
+    font-size: 16px;
+    color: rgb(34, 33, 33);
+}
+
+.icon {
+    width: 20px;
+    height: 40px;
+    margin: 10px 8px 0px 0px;
+}
+
+.heart-icon {
+    height: 50%;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.add-botom>h4 {
+    margin: 20px 0px 0px 10px;
+}
+
+.addres-time {
+    margin: -40px 0px 0px 16px;
+}
+
+.addres-time>small {
+    color: rgb(150, 150, 150);
+    font-size: 12px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button>button {
+    width: 100px;
+    height: 50px;
+    border: 2px solid #002f34;
+    border-radius: 3px;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    color: #002f34;
+    margin-bottom: 20px;
+}
+
+
+/* #################################  bottom ######################## */
+
+.bottom {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    background-color: #ffff;
+}
+
+.right-bottom {
+    width: 33.33%;
+}
+
+.mid-bottom {
+    width: 33.33%;
+    background: #ffff;
+    align-items: center;
+    border-right: 1px solid #002f34;
+}
+
+.mid-bottom h1 {
+    margin: 30px 0px 0px 30px;
+    color: #002f34;
+}
+
+.mid-bottom p {
+    margin: 30px 0px 0px 30px;
+    color: #002f34;
+    font-size: 20px;
+}
+
+.left-bottom {
+    width: 33.33%;
+    background: #ffff;
+}
+
+.left-bottom p {
+    position: absolute;
+    color: #002f34;
+    font-size: 14px;
+    font-weight: 750;
+    margin: 60px 0px 0px 30px;
+}
+
+.appimages {
+    display: flex;
+    align-content: center;
+    margin: 80px 0px 0px 20px;
+    width: 120px;
+    height: 60px;
+}
+
+.appimages img {
+    width: 7.8rem;
+    height: 4rem;
+    margin-left: 10px;
+}
+
+
+/* ############################### footer ############################## */
+
+.footer {
+    width: 100% !important;
+    height: 180px;
+    background: #ebeeef;
+    display: flex;
+    justify-content: start;
+}
+
+.footer1 {
+    margin-top: 1rem;
+    margin-left: 8rem;
+    background: #ebeeef;
+    height: 20px;
+    color: rgba(0, 47, 52, .64);
+    /* padding: 0 5rem;     */
+}
+
+.footer1-1 {
+    margin-left: 2.5rem !important;
+}
+
+.footer1>ul>h4 {
+    color: #002f34;
+    font-size: 14px;
+}
+
+.footer1>ul>li>a {
+    text-decoration: none;
+    color: #999999;
+    font-size: 14px;
+}
+
+.footer1>ul>li>a:hover {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+}
+
+.footer4 {
+    margin-top: 1rem;
+    margin-left: 8rem;
+    color: rgba(0, 47, 52, .64);
+}
+
+.footer4>h4 {
+    color: #002f34;
+    font-size: 14px;
+}
+
+.footer4-icon {
+    display: flex;
+}
+
+.footer4-icon img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.footer4-appimages {
+    display: flex;
+}
+
+.footer4-appimages img {
+    margin: 40px 5px 0px 0px;
+    width: 85px;
+}
+
+
+/* ################################## end bar ##################################  */
+
+.end {
+    width: 100%;
+    height: 50px;
+    background: #002f34;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.end p {
+    color: white;
+    font-size: small;
+    margin-right: 50px;
+}
